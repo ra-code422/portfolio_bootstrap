@@ -1,0 +1,265 @@
+/* variable globale */
+:root {
+    --couleur-principale: #3EB3BD;
+    --couleur-secondaire: #48D5DA;
+    --couleur-degrade: linear-gradient(135deg, #3EB3BD, #48D5DA);
+    --couleur-bordure: rgba(62, 179, 189, 0.15);
+    --ombre-hover: 0 15px 30px rgba(62, 179, 189, 0.25);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*  navbars */
+.nav-link {
+    color: #222;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #222 !important;
+    border-bottom: 2px solid var(--couleur-principale);
+}
+
+#accueil {
+    padding-top: 90px;
+}
+
+/*  Boutons */
+.mon-btn,
+.btn-border {
+    transition: all 0.3s ease;
+}
+
+.mon-btn {
+    background: var(--couleur-degrade);
+}
+
+.btn-border {
+    background: transparent;
+    color: var(--couleur-principale);
+    border: 2px solid var(--couleur-principale);
+}
+
+.mon-btn:hover,
+.btn-border:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--ombre-hover);
+}
+
+.btn-border:hover {
+    background: var(--couleur-degrade);
+    color: #fff;
+    border-color: transparent;
+}
+
+/*  Reseaux sociaux (hero + footer) */
+.social-icons a,
+.footer-social a {
+    color: var(--couleur-principale);
+    transition: all 0.35s ease;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-social a {
+    width: 42px;
+    height: 42px;
+    background: var(--couleur-bordure);
+    color: #fff;
+}
+
+.social-icons a:hover {
+    background: var(--couleur-degrade);
+    color: #fff;
+    border-color: transparent;
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: var(--ombre-hover);
+}
+
+.footer-social a:hover {
+    background: white;
+    color: var(--couleur-principale) !important;
+    transform: translateY(-4px);
+}
+
+.social-icons a i {
+    transition: transform 0.35s ease;
+}
+
+.social-icons a:hover i {
+    transform: rotate(10deg) scale(1.15);
+}
+
+/*  Photo de profil */
+.profil-photo {
+    width: 320px;
+    height: 320px;
+    border: 10px solid var(--couleur-principale);
+}
+
+/* Cartes avec hovers en commun (info-item, card-competences, project-card, service-card) */
+.info-item,
+.card-competences,
+.project-card,
+.service-card {
+    border: 1px solid var(--couleur-bordure);
+    transition: all 0.35s ease;
+}
+
+.info-item:hover,
+.card-competences:hover,
+.project-card:hover,
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--ombre-hover);
+    border-color: transparent;
+}
+
+/* Comportement  à info-item (déplacement plus léger + fond dégradé) */
+.info-item:hover {
+    background: var(--couleur-degrade);
+    transform: translateY(-6px);
+}
+
+.info-item div,
+.info-item small {
+    transition: color 0.35s ease;
+}
+
+.info-item:hover div,
+.info-item:hover small {
+    color: #fff;
+}
+
+/* icons cercle (info-item, competences-icon, service-icon) */
+.info-item i,
+.competences-icon,
+.service-icon {
+    background: var(--couleur-claire);
+    color: var(--couleur-principale);
+    transition: all 0.35s ease;
+}
+
+.info-item i {
+    width: 50px;
+    height: 50px;
+}
+
+.competences-icon,
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+}
+
+.competences-icon {
+    width: 72px;
+    height: 72px;
+}
+
+.service-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.competences-icon i,
+.service-icon i {
+    color: var(--couleur-principale);
+    transition: all 0.35s ease;
+}
+
+.info-item:hover i {
+    background: #fff;
+    color: var(--couleur-principale);
+    transform: rotate(10deg) scale(1.1);
+}
+
+.card-competences:hover .competences-icon,
+.service-card:hover .service-icon {
+    background: var(--couleur-degrade);
+    transform: scale(1.1);
+}
+
+.card-competences:hover .competences-icon i,
+.service-card:hover .service-icon i {
+    color: #ffffff;
+}
+
+/* projet */
+.project-card img {
+    height: 220px;
+    transition: transform .5s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.08);
+}
+
+.tech-badge {
+    background: var(--couleur-claire);
+    transition: all .3s ease;
+}
+
+.project-card:hover .tech-badge {
+    background: var(--couleur-degrade) !important;
+    color: #fff !important;
+}
+
+/* contact */
+.contact-info-card {
+    background: var(--couleur-degrade);
+}
+
+.contact-info-card small {
+    color: rgba(255, 255, 255, .8);
+    font-size: .85rem;
+}
+
+.contact-info-card i {
+    color: #fff;
+}
+
+.contact-form .form-control {
+    background: #F8FAFB;
+    border: 1px solid var(--couleur-bordure);
+    border-radius: 12px;
+    padding: .75rem 1rem;
+    transition: all .3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: var(--couleur-principale);
+    box-shadow: 0 0 0 .2rem var(--couleur-bordure);
+    background: #fff;
+}
+
+/* footer */
+.footer a {
+    transition: all .3s ease;
+}
+
+.footer a:hover {
+    color: #222 !important;
+}
+
+.footer-ligne {
+    border-color: rgba(100, 83, 83, 0.12);
+    margin: 2rem 0 1.5rem;
+}
