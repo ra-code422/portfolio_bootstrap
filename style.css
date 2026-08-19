@@ -64,11 +64,6 @@
 .footer-social a {
     color: var(--couleur-principale);
     transition: all 0.35s ease;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    text-decoration: none;
 }
 
 .social-icons a {
@@ -95,6 +90,9 @@
     background: white;
     color: var(--couleur-principale) !important;
     transform: translateY(-4px);
+}
+.footer-social i:hover {
+    color: var(--couleur-principale) !important;
 }
 
 .social-icons a i {
@@ -150,7 +148,7 @@
 .info-item i,
 .competences-icon,
 .service-icon {
-    background: var(--couleur-claire);
+    background: var(--couleur-bordure);
     color: var(--couleur-principale);
     transition: all 0.35s ease;
 }
@@ -213,7 +211,7 @@
 }
 
 .tech-badge {
-    background: var(--couleur-claire);
+    background: var(--couleur-bordure);
     transition: all .3s ease;
 }
 
