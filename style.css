@@ -91,6 +91,7 @@
     color: var(--couleur-principale) !important;
     transform: translateY(-4px);
 }
+
 .footer-social i:hover {
     color: var(--couleur-principale) !important;
 }
@@ -104,10 +105,38 @@
 }
 
 /*  Photo de profil */
+
 .profil-photo {
     width: 320px;
     height: 320px;
-    border: 10px solid var(--couleur-principale);
+    box-shadow:
+        0 0 0 8px rgba(62, 179, 189, 0.08),
+        0 15px 40px rgba(62, 179, 189, 0.25);
+}
+
+.animate-float {
+    animation: profileFloat 5s ease-in-out infinite;
+    will-change: transform;
+}
+
+@keyframes profileFloat {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateY(-10px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateY(-18px) rotate(0deg);
+    }
+
+    75% {
+        transform: translateY(-10px) rotate(-1deg);
+    }
 }
 
 /* Cartes avec hovers en commun (info-item, card-competences, project-card, service-card) */
