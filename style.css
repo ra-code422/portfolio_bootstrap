@@ -27,8 +27,22 @@
     border-bottom: 2px solid var(--couleur-principale);
 }
 
-#accueil {
+#accueil,
+#apropos,
+#competences,
+#contact,
+#services{
     padding-top: 90px;
+}
+#blog,
+#projets{
+    padding-top: 40px;
+}
+#apropos,
+#competences,
+#contact,
+#services{
+    min-height: 80vh;
 }
 
 /*  Boutons */

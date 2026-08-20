@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 overflow-x-hidden">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-custom fixed-top " style="background: #3EB3BD;">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand navbar-brand-custom" href="#accueil">
+                        <span class="fw-bolder" style="color: #fff;">Rafia</span>
+                        <span class="fw-bolder">.dev</span>
+                    </a>
+
+                    <!-- Bouton hamburger (mobile) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                        aria-controls="navMenu" aria-expanded="false" aria-label="Ouvrir le menu de navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Liens de navigation -->
+                    <div class="collapse navbar-collapse" id="navMenu">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white  fw-bolder" href="apropos.html">À propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder active  " href="competence.html">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="blog.html">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="projet.html">Projets</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="sevices.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- section competence -->
+            <section id="competences" class="section-competences bg-light-gray d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <div class="text-center my-5">
+                        <p class="section-competences-text fw-semibold fs-5" style="color: #3EB3BD;">Ce que je maîtrise
+                        </p>
+                        <h2 class="section-titre fs-3">Mes compétences</h2>
+                        <p class="section-sous-titre fw-semibold fs-5" style="color: #3EB3BD;">Les outils et
+                            technologies que j'utilise au quotidien.</p>
+                    </div>
+                    <div class="row g-4">
+                        <!-- HTML5 -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card-competences bg-white rounded-3 py-5 px-4 text-center h-100">
+                                <div
+                                    class="competences-icon rounded-circle d-flex justify-content-center align-items-center m-auto mb-4">
+                                    <i class="bi bi-filetype-html fs-4"></i>
+                                </div>
+                                <h5 class="mb-3 fw-bolder" style="color: #222;">HTML5</h5>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Structuration sémantique et accessible du contenu web.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- CSS3 -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card-competences bg-white rounded-3 py-5 px-4 text-center h-100">
+                                <div
+                                    class="competences-icon rounded-circle d-flex justify-content-center align-items-center m-auto mb-4">
+                                    <i class="bi bi-filetype-css fs-4"></i>
+                                </div>
+                                <h5 class="mb-3 fw-bolder" style="color: #222;">CSS3</h5>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Mise en forme moderne, animations et
+                                    design responsive.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Bootstrap -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card-competences bg-white rounded-3 py-5 px-4 text-center h-100">
+                                <div
+                                    class="competences-icon rounded-circle d-flex justify-content-center align-items-center m-auto mb-4">
+                                    <i class="bi bi-bootstrap fs-4"></i>
+                                </div>
+                                <h5 class="mb-3 fw-bolder" style="color: #222;">Bootstrap</h5>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Création rapide d'interfaces
+                                    responsives et cohérentes.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Git & GitHub -->
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card-competences bg-white rounded-3 py-5 px-4 text-center h-100">
+                                <div
+                                    class="competences-icon rounded-circle d-flex justify-content-center align-items-center m-auto mb-4">
+                                    <i class="bi bi-git fs-4"></i>
+                                </div>
+                                <h5 class="mb-3 fw-bolder" style="color: #222;">Git & GitHub</h5>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Gestion de versions et collaboration
+                                    sur les projets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- fin -->
+        </main>
+        <footer class="footer mt-4 py-4 px-3 vh-75" style="background: #3EB3BD;">
+            <div class="container">
+                <div class="row g-4  d-flex justify-content-center align-items-start">
+                    <div class=" col-12 col-lg-4  text-md-center text-lg-start">
+                        <p class="footer-text mb-0 fw-bolder fs-4">
+                            <span class="text-white"> Rafia</span>
+                            <span style="color: #222;">.dev</span>
+                        </p>
+                        <p class="mt-2 small fw-semibold text-white">
+                            Développeur Front-End basé à Niamey, Niger.
+                        </p>
+                    </div>
+
+                    <div class=" col-12 col-lg-4  text-md-center   fw-bolder">
+                        <ul
+                            class="list-unstyled d-flex flex-column flex-md-row justify-content-md-center gap-md-3 mb-0">
+                            <li><a href="#accueil" class="text-white text-decoration-none">Accueil</a></li>
+                            <li><a href="#apropos" class="text-white text-decoration-none">À propos</a></li>
+                            <li><a href="#competences" class="text-white text-decoration-none">Compétences</a></li>
+                            <li><a href="#projets" class="text-white text-decoration-none">Projets</a></li>
+                            <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class=" col-12 col-lg-4 text-md-center  text-lg-end footer-social">
+                        <a href="#"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+
+                        <a href="https://github.com/ra-code422" target="_blank" rel="noopener noreferrer"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-github fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-twitter-x fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-instagram fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="footer-ligne" />
+
+                <p class=" text-center small mb-0 text-white">
+                    &copy; 2026 Rafiatou SOUMAILA HAMIDOU. Tous droits réservés.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 overflow-x-hidden">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-custom fixed-top " style="background: #3EB3BD;">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand navbar-brand-custom" href="#accueil">
+                        <span class="fw-bolder" style="color: #fff;">Rafia</span>
+                        <span class="fw-bolder">.dev</span>
+                    </a>
+
+                    <!-- Bouton hamburger (mobile) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                        aria-controls="navMenu" aria-expanded="false" aria-label="Ouvrir le menu de navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Liens de navigation -->
+                    <div class="collapse navbar-collapse" id="navMenu">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="apropos.html">À propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="competence.html">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active  fw-bolder" href="blog.html">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="projet.html">Projets</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="sevices.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bolder text-white" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- section blogs -->
+            <section id="blog" class="section-blog bg-light-gray ">
+                <div class="container">
+                    <div class="text-center my-5">
+                        <p class="section-blog-text fw-semibold fs-5" style="color: #3EB3BD;">Ce que je partage</p>
+                        <h2 class="section-titre fs-3">Mon Blog</h2>
+                        <p class="section-sous-titre fw-semibold fs-5" style="color: #3EB3BD;">Mon parcours, mes
+                            apprentissages et ma veille technologique.</p>
+                    </div>
+                    <div class="row g-4">
+                        <!-- Article 1 -->
+                        <div class="col-12">
+                            <div class="card-competences bg-white rounded-3 py-5 px-4 h-100">
+                                <div
+                                    class="competences-icon rounded-circle d-flex justify-content-center align-items-center mb-4">
+                                    <i class="bi bi-lightbulb fs-4"></i>
+                                </div>
+                                <p class="small mb-2 fw-bold fs-5" style="color: #3EB3BD;">Veille technologique /
+                                    Parcours personnel
+                                </p>
+                                <h5 class="mb-3 fw-bolder" style="color: #222;">
+                                    De la gestion d'entreprise au code : mon parcours vers un profil hybride
+                                </h5>
+                                <h6 class="fs-5 fw-bold" style="color: #3EB3BD;">
+                                    Un point de départ inattendu
+                                </h6>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Avant de toucher à une seule ligne de code, j'ai passé plusieurs années à étudier
+                                    <strong>l'administration des affaires</strong>. Comptabilité, gestion de projet,
+                                    marketing, stratégie d'entreprise... un univers qui semble, à première vue, très
+                                    éloigné du développement web et mobile.
+
+                                    Et pourtant, plus j'avance dans mon apprentissage à <strong>Codeloccol</strong>,
+                                    plus je réalise à quel point ces deux mondes se complètent naturellement.
+                                </p>
+                                <h6 class="fs-5 fw-bold" style="color: #3EB3BD;">
+                                    Pourquoi le développement web et mobile ?
+                                </h6>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Le déclic est venu d'un constat simple : la majorité des entreprises, aujourd'hui,
+                                    ont besoin de solutions numériques pour fonctionner — un site vitrine, une
+                                    application mobile, un outil de gestion interne, une plateforme e-commerce. Mais ces
+                                    mêmes entreprises ont souvent du mal à faire le pont entre leurs besoins métier
+                                    réels et ce que les développeurs construisent.
+                                </p>
+                                <h6 class="fs-5 fw-bold" style="color: #3EB3BD;">
+                                    Ce que mon parcours en administration des affaires m'apporte déjà
+                                </h6>
+                                <div>
+                                    <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                        Même débutant en code, je remarque que certains réflexes acquis pendant ma
+                                        licence changent ma façon d'apprendre à développer :
+
+                                    </p>
+                                    <ul class="small m-0 lh-base fs-6">
+                                        <li>
+                                            <strong>
+                                                Comprendre le besoin avant la solution —
+                                            </strong>
+                                            <span style="color: #6c757d;">
+                                                avant de coder une fonctionnalité, je me demande instinctivement : à qui
+                                                ça sert, et pourquoi ?
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <strong>
+                                                Penser en termes de processus —
+                                            </strong>
+                                            <span style="color: #6c757d;">
+                                                la gestion de projet m'a appris à découper un objectif complexe en
+                                                étapes claires, ce qui aide énormément quand on structure un projet de
+                                                développement.
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <strong>
+                                                Communiquer avec un langage non technique —
+                                            </strong>
+                                            <span style="color: #6c757d;">
+                                                pouvoir expliquer une solution technique à quelqu'un qui n'y connaît
+                                                rien est une compétence rare, et précieuse en entreprise.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h6 class="fs-5 fw-bold" style="color: #3EB3BD;">
+                                    Ce que j'apprends actuellement à Codeloccol
+                                </h6>
+                                <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                    Je suis en plein apprentissage des fondamentaux du développement web et mobile :
+                                    structuration de pages avec HTML/CSS, logique de programmation en JavaScript, et
+                                    petit à petit, la construction d'interfaces plus dynamiques et interactives.
+
+                                    Chaque projet — même simple, comme un formulaire de contact — m'apprend quelque
+                                    chose de nouveau. Récemment par exemple, j'ai découvert concrètement comment
+                                    fonctionne l'envoi de données d'un formulaire côté serveur, avec toutes les petites
+                                    subtilités que ça implique (validation d'adresse, filtres anti-spam, activation de
+                                    service...). Ce genre d'expérience pratique, même frustrante sur le moment, est
+                                    exactement ce qui construit une vraie compréhension du métier.
+                                </p>
+                                <h6 class="fs-5 fw-bold" style="color: #3EB3BD;">
+                                    L'objectif : un profil hybride
+                                </h6>
+                                <div>
+                                    <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                        Mon ambition n'est pas de devenir "juste" développeur, ni de rester "juste" dans
+                                        la gestion d'entreprise. Je veux construire un profil qui sait naviguer entre
+                                        les deux :
+
+                                    </p>
+                                    <ul class="small m-0 lh-base fs-6">
+                                        <li>
+                                            <span style="color: #6c757d;">
+                                                Concevoir des solutions techniques qui répondent réellement à des
+                                                besoins
+                                                business
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span style="color: #6c757d;">
+                                                Accompagner des entrepreneurs ou des petites structures dans leur
+                                                transformation numérique
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span style="color: #6c757d;">
+                                                Être capable de gérer un projet de A à Z — de l'analyse du besoin
+                                                jusqu'au
+                                                développement de la solution
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <p class="small m-0 lh-base fs-6" style="color: #6c757d;">
+                                        C'est un chemin qui demande du temps et beaucoup d'apprentissage, mais je suis
+                                        convaincu que cette double compétence deviendra un vrai atout, notamment pour
+                                        accompagner des PME et des entrepreneurs qui ont besoin d'un interlocuteur
+                                        capable de parler à la fois "business" et "technique".
+                                    </p>
+                                </div>
+                                <p class="small m-0 lh-base fs-6 mt-5 fst-italic">
+                                    les techs que je découvre, les projets que je construis, mes réussites comme mes
+                                    galères. L'objectif est simple — progresser, et partager ce parcours avec d'autres
+                                    personnes qui, comme moi, viennent d'un domaine différent et se lancent dans le
+                                    développement.
+                                </p>
+                                <a href="#" class="d-inline-block mt-3 fw-semibold text-decoration-none"
+                                    style="color: #3EB3BD;">Lire l'article <i class="bi bi-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- fin -->
+        </main>
+        <footer class="footer mt-4 py-4 px-3 vh-75" style="background: #3EB3BD;">
+            <div class="container">
+                <div class="row g-4  d-flex justify-content-center align-items-start">
+                    <div class=" col-12 col-lg-4  text-md-center text-lg-start">
+                        <p class="footer-text mb-0 fw-bolder fs-4">
+                            <span class="text-white"> Rafia</span>
+                            <span style="color: #222;">.dev</span>
+                        </p>
+                        <p class="mt-2 small fw-semibold text-white">
+                            Développeur Front-End basé à Niamey, Niger.
+                        </p>
+                    </div>
+
+                    <div class=" col-12 col-lg-4  text-md-center   fw-bolder">
+                        <ul
+                            class="list-unstyled d-flex flex-column flex-md-row justify-content-md-center gap-md-3 mb-0">
+                            <li><a href="#accueil" class="text-white text-decoration-none">Accueil</a></li>
+                            <li><a href="#apropos" class="text-white text-decoration-none">À propos</a></li>
+                            <li><a href="#competences" class="text-white text-decoration-none">Compétences</a></li>
+                            <li><a href="#projets" class="text-white text-decoration-none">Projets</a></li>
+                            <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class=" col-12 col-lg-4 text-md-center  text-lg-end footer-social">
+                        <a href="#"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+
+                        <a href="https://github.com/ra-code422" target="_blank" rel="noopener noreferrer"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-github fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-twitter-x fs-4"></i>
+                        </a>
+                        <a href="#"
+                            class="d-inline-flex justify-content-center align-items-center rounded-circle text-white text-decoration-none">
+                            <i class="bi bi-instagram fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="footer-ligne" />
+
+                <p class=" text-center small mb-0 text-white">
+                    &copy; 2026 Rafiatou SOUMAILA HAMIDOU. Tous droits réservés.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
